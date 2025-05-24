@@ -1,7 +1,6 @@
-echo "# NeoUMG" >> README.md
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/NeoMagCustoms/NeoUMG.git
-git push -u origin main
+# NeoUMG
+
+**Universal Modular Generation (NeoUMG)** is a composable AI framework by Christopher Lars Haynes.  
+It enables modular, upgradable AI systems through plug-and-play logic components.
+
+> [Read the full whitepaper →](docs/NeoUMG_Whitepaper_v1.md)
