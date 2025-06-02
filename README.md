@@ -1,6 +1,10 @@
 # 🧠 Universal Modular Generation (UMG)
 *Invented by Mag — IP Pending*
 
+![License](https://img.shields.io/badge/license-Apache%202.0-blue)
+![Patent Status](https://img.shields.io/badge/patent-pending-orange)
+[![Forks](https://img.shields.io/github/forks/NeoMagCustoms/NeoUMG?style=social)](https://github.com/NeoMagCustoms/NeoUMG/network/members)
+
 > A modular instruction framework for editable, composable, and now verifiable AI cognition.
 
 ---
@@ -39,3 +43,23 @@ UMG is the first step toward **editable minds** — and the foundation of the Co
 /examples      → UMG-powered agents and test logic
 
 > [Read the full whitepaper →](docs/NeoUMG_Whitepaper_v1.md)
+
+---
+
+## 🛡️ Legal Notice – Patent Pending
+
+The Universal Modular Generation (UMG) system and its composable cognition framework are the subject of a pending **utility patent filing** by the original inventor.
+
+> 📌 U.S. Copyright Registration #: 1-14930887191  
+> 📌 Patent Status: **Provisional patent filed / Utility patent pending**  
+> 📌 License: Apache 2.0
+
+This project is licensed under the [Apache License 2.0](LICENSE).  
+Under Section 3 of the Apache License, all contributors and users are granted a **royalty-free, worldwide patent license**, subject to compliance.
+
+Unauthorized patent claims, derivative exclusivity, or proprietary enclosures are prohibited.  
+Attribution is required for all substantial reproductions and derivative works.
+
+For inquiries: [NeoMagCustoms@gmail.com](mailto:NeoMagCustoms@gmail.com)
+
+---
