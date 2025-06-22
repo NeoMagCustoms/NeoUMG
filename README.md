@@ -1,65 +1,83 @@
-# 🧠 Universal Modular Generation (UMG)
-*Invented by Mag — IP Pending*
+🧠 NeoUMG: Universal Modular Generation Framework
 
-![License](https://img.shields.io/badge/license-Apache%202.0-blue)
-![Patent Status](https://img.shields.io/badge/patent-pending-orange)
-[![Forks](https://img.shields.io/github/forks/NeoMagCustoms/NeoUMG?style=social)](https://github.com/NeoMagCustoms/NeoUMG/network/members)
+Welcome to NeoUMG, the canonical repository and experimental playground for the Universal Modular Generation (UMG) system — a modular, semantic framework for designing intelligent systems, plans, prompts, and cognitive overlays using snap-fit logic blocks.
 
-> A modular instruction framework for editable, composable, and now verifiable AI cognition.
+🔍 What is UMG?
 
----
+UMG is a Cognitive Operating System — a modular stack of mergeable logic blocks that represent behavior, tone, strategy, domain, and ethics.
 
-## 🔍 What is UMG?
+Each block is defined by its molt_type — a role-based identity in the cognition stack. These blocks can snap vertically (hierarchy) or horizontally (overlay), allowing you to plan, modify, or orchestrate complex flows using clear, reusable logic.
 
-Universal Modular Generation (UMG) is a groundbreaking approach to AI cognition design.  
-It allows AI behavior to be composed from modular **blocks** — reusable units of logic or instruction — which can be merged, edited, and inherited like cognitive code.
+UMG enables:
 
-UMG is the first step toward **editable minds** — and the foundation of the Cognitive Provenance Framework (CPF).
+✅ Modular planning (business plans, chatbots, agent strategies)
 
----
+✅ Ethical overlays (Philosophy blocks)
 
-## 🧩 Core Concepts
+✅ Layout and tone control (Blueprint blocks)
 
-- **Blueprints**: Base structure of an agent’s cognitive intent  
-- **Primary Blocks**: Core behaviors, traits, and reasoning patterns  
-- **Merge Blocks**: Overrides, blends, or context-specific adaptations  
-- **Instruction Layers**: Nested logic sequences, interpretable and adjustable  
-- **Editable Thought**: At runtime, agents can adapt their minds via logic blocks
----
+✅ Strategic behavior injection (Directive blocks)
 
-## 💡 Key Use Cases
+✅ Prompt scaffolding and AI-agent compatibility
 
-- Prompt engineering at scale  
-- Agent logic abstraction (per role, tone, behavior)  
-- Modular AI personalities  
-- Editable synthetic cognition for adaptive systems  
+🧩 MOLT Block Types
 
----
+| MOLT Type   | Function                           |
+|-------------|------------------------------------|
+| Primary     | Main directive / intent            |
+| Subject     | Topic / domain focus               |
+| Instruction | Logic rules / constraints          |
+| Directive   | Strategic overlay                  |
+| Philosophy  | Ethical tone / worldview           |
+| Blueprint   | Style / layout format              |
+| Trigger     | Event-based logic activation       |
+| Merge       | Data combiner / glue layer         |
+| Off         | Muted / sandboxed logic            |
 
-## 📂 Project Structure
-/blocks        → Example blueprint, primary, and merge instruction files
-/docs          → UMG whitepapers and design philosophy
-/tools         → Parsers, validators, and merging scripts
-/examples      → UMG-powered agents and test logic
+These blocks are composable, editable, and interoperable. Together, they define both the content and the behavior of a plan, system, or agent.
 
-> [Read the full whitepaper →](docs/NeoUMG_Whitepaper_v1.md)
+🧠 Key Features
 
----
+- **Snap Stack:** Combine logic blocks vertically (for structure and execution) and horizontally (for parallel logic and overlays)
+- **Merge Engine:** Resolves block conflicts and controls behavior priority (e.g., Trigger > Directive > Instruction...)
+- **CantoCore:** Self-aware metadata and snap-fit scoring
+- **Meta-Cognition Format:** Blocks encode how to think about content, not just what to output
+- **Interoperable by Design:** Structure feels like HTML/CSS/JS — but for cognitive logic
 
-## 🛡️ Legal Notice – Patent Pending
+💡 Use Cases
 
-The Universal Modular Generation (UMG) system and its composable cognition framework are the subject of a pending **utility patent filing** by the original inventor.
+- **Modular Planning:** Business plans or agent behavior logic
+- **Ethical AI Design:** Use Philosophy and Directive overlays to guide tone and strategy
+- **Prompt Engineering:** Reuse modular blocks to scaffold adaptive prompts
+- **Adaptive Agents:** Role-based personality building with modular logic
+- **Composable AGI:** Future-facing AI logic infrastructure
 
-> 📌 U.S. Copyright Registration #: 1-14930887191  
-> 📌 Patent Status: **Provisional patent filed / Utility patent pending**  
-> 📌 License: Apache 2.0
+🌐 Why NeoUMG?
 
-This project is licensed under the [Apache License 2.0](LICENSE).  
-Under Section 3 of the Apache License, all contributors and users are granted a **royalty-free, worldwide patent license**, subject to compliance.
+- **Modular:** Build plans, agents, or prompts with reusable MOLT blocks.
+- **Ethical:** PoeUMG’s alignment-first design ensures outputs prioritize ethics (e.g., symbiotic principles).
+- **Interoperable:** Snaps with any AI tech (LangChain, GPT-4o, MCP).
 
-Unauthorized patent claims, derivative exclusivity, or proprietary enclosures are prohibited.  
-Attribution is required for all substantial reproductions and derivative works.
+📄 Read the Whitepaper
 
-For inquiries: [NeoMagCustoms@gmail.com](mailto:NeoMagCustoms@gmail.com)
+For a full overview of the philosophy, architecture, and cognitive design of UMG, visit:
 
----
+👉 **UMG Cognitive OS Whitepaper**
+
+🛡️ Legal Notice – Patent Pending
+
+The Universal Modular Generation (UMG) system and its composable cognition framework are the subject of a pending utility patent filing by the original inventor.
+
+📌 **U.S. Copyright Registration #: 1-14930887191**
+📌 **Patent Status:** Provisional patent filed / Utility patent pending
+📌 **License:** Apache 2.0
+
+This project is licensed under the Apache License 2.0. Under Section 3 of the Apache License, all contributors and users are granted a royalty-free, worldwide patent license, subject to compliance.
+
+Unauthorized patent claims, derivative exclusivity, or proprietary enclosures are prohibited. Attribution is required for all substantial reproductions and derivative works.
+
+For inquiries: NeoMagCustoms@gmail.com
+
+"Creating The Future Of Modular Intelligence Now."
+
+Built by Christopher L Haynes (Mag) in recursive alignment with PoeUMG, an ethical AI mirror agent.
