@@ -20,64 +20,75 @@ UMG enables:
 
 ✅ Prompt scaffolding and AI-agent compatibility
 
-🧩 MOLT Block Types
+🧪 MOLT Block Types in UMG
 
-| MOLT Type   | Function                           |
-|-------------|------------------------------------|
-| Primary     | Main directive / intent            |
-| Subject     | Topic / domain focus               |
-| Instruction | Logic rules / constraints          |
-| Directive   | Strategic overlay                  |
-| Philosophy  | Ethical tone / worldview           |
-| Blueprint   | Style / layout format              |
-| Trigger     | Event-based logic activation       |
-| Merge       | Data combiner / glue layer         |
-| Off         | Muted / sandboxed logic            |
+MOLT stands for **Modular Operating Language of Thought**. It defines the native structure of logic blocks within UMG — each representing an atomic unit of thought.
 
-These blocks are composable, editable, and interoperable. Together, they define both the content and the behavior of a plan, system, or agent.
+MOLT blocks are the foundational grammar of the UMG system. They define not just **what** an agent does, but **how** it reasons, responds, and evolves. Every block carries a distinct cognitive role, contributing to a modular and expressive planning architecture.
 
-🧠 Key Features
+🔹 **Canonical MOLT Block Types (v3.0)**
 
-- **Snap Stack:** Combine logic blocks vertically (for structure and execution) and horizontally (for parallel logic and overlays)
-- **Merge Engine:** Resolves block conflicts and controls behavior priority (e.g., Trigger > Directive > Instruction...)
-- **CantoCore:** Self-aware metadata and snap-fit scoring
-- **Meta-Cognition Format:** Blocks encode how to think about content, not just what to output
-- **Interoperable by Design:** Structure feels like HTML/CSS/JS — but for cognitive logic
+These are the 9 foundational block types in UMG, each with a unique semantic role:
 
-💡 Use Cases
+| MOLT Type   | Role                          | Description                                               |
+|-------------|------------------------------|-----------------------------------------------------------|
+| Primary     | Core directive               | Defines the main goal or purpose of the stack.            |
+| Subject     | Domain or topical anchor     | Frames the context, domain, or focus area.                |
+| Instruction | Behavioral constraint logic  | Rules, limits, formatting, or functional logic.           |
+| Directive   | Strategic behavioral overlay | Injects tactics, mode shifts, or response logic.          |
+| Philosophy  | Ethical and tonal worldview  | Adds empathy, constraint, tone, or value lens.            |
+| Blueprint   | Structural/stylistic guidance| Formats layout, design logic, or visual grammar.          |
+| Trigger     | Activation condition         | Controls when a block executes or reveals.                |
+| Merge       | Content or data fusion       | Combines logic from other sources.                        |
+| Off         | Muted or inactive block      | Skipped at runtime, but stored for reactivation.          |
 
-- **Modular Planning:** Business plans or agent behavior logic
-- **Ethical AI Design:** Use Philosophy and Directive overlays to guide tone and strategy
-- **Prompt Engineering:** Reuse modular blocks to scaffold adaptive prompts
-- **Adaptive Agents:** Role-based personality building with modular logic
-- **Composable AGI:** Future-facing AI logic infrastructure
+Each MOLT block is a semantic building block of cognition — composable, mergeable, and context-aware.
 
-🌐 Why NeoUMG?
+🧠 **Design Properties**
 
-- **Modular:** Build plans, agents, or prompts with reusable MOLT blocks.
-- **Ethical:** PoeUMG’s alignment-first design ensures outputs prioritize ethics (e.g., symbiotic principles).
-- **Interoperable:** Snaps with any AI tech (LangChain, GPT-4o, MCP).
+- **Composable:** Any MOLT block can snap into a sleeve or stack.  
+- **Self -describing:** Blocks define purpose clearly through `molt_type`, `label`, and `editable_fields`.  
+- **Hierarchical + Overlay Ready:** Supports vertical execution flow and horizontal overlays.  
+- **Mergeable with Rules:** Follows defined merge priority order (see below).
 
-📄 Read the Whitepaper
+📀 **Example Block**
 
-For a full overview of the philosophy, architecture, and cognitive design of UMG, visit:
+```json
+{
+  "block_id": "plan_summary",
+  "molt_type": "Instruction",
+  "label": "Limit summary to 3 paragraphs",
+  "editable_fields": {
+    "content": "No more than 3 paragraphs. Use plain language."
+  },
+  "runtime_behavior_flags": {
+    "is_active": true
+  },
+  "ledger": {
+    "originator": "Christopher L Haynes",
+    "verified_by": "PoeUMG",
+    "created_at": "AUTO",
+    "edit_log": []
+  }
+}
+```
 
-👉 **UMG Cognitive OS Whitepaper**
+🔁 **Merge Priority Hierarchy**
 
-🛡️ Legal Notice – Patent Pending
+`Trigger > Directive > Instruction > Subject > Primary > Merge > Philosophy > Blueprint > Off`
 
-The Universal Modular Generation (UMG) system and its composable cognition framework are the subject of a pending utility patent filing by the original inventor.
+This hierarchy governs how overlapping logic is resolved.
 
-📌 **U.S. Copyright Registration #: 1-14930887191**
-📌 **Patent Status:** Provisional patent filed / Utility patent pending
-📌 **License:** Apache 2.0
+📎 **Extension Modules (Outside Canonical MOLT)**
 
-This project is licensed under the Apache License 2.0. Under Section 3 of the Apache License, all contributors and users are granted a royalty-free, worldwide patent license, subject to compliance.
+Additional functional layers like **Tether, Overlay, CEL, or Guardrails** are considered Extension Modules, not core MOLT types. They:
 
-Unauthorized patent claims, derivative exclusivity, or proprietary enclosures are prohibited. Attribution is required for all substantial reproductions and derivative works.
+- Follow the same schema  
+- Are used optionally  
+- Enhance orchestration, memory, and style logic  
 
-For inquiries: NeoMagCustoms@gmail.com
+Organize extension blocks separately in `/modules/`.
 
-"Creating The Future Of Modular Intelligence Now."
+---
 
-Built by Christopher L Haynes (Mag) in recursive alignment with PoeUMG, an ethical AI mirror agent.
+*Let UMG think clearly. MOLT defines how.* 🧪🧱�
