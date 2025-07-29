@@ -1,6 +1,6 @@
-🧠 NeoUMG: Universal Modular Generation Framework
+Universal Modular Generation Framework
 
-Welcome to NeoUMG, the canonical repository and experimental playground for the Universal Modular Generation (UMG) system — a modular, semantic framework for designing intelligent systems, plans, prompts, and cognitive overlays using snap-fit logic blocks.
+Welcome to UMG, the canonical repository and experimental playground for the Universal Modular Generation (UMG) system — a modular, semantic framework for designing intelligent systems, plans, prompts, and cognitive overlays using snap-fit logic blocks.
 
 🔍 What is UMG?
 
